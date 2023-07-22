@@ -1,0 +1,23 @@
+[package]
+
+name = "MoveStdlib"
+
+version = "0.1.1"
+
+license = "MIT"
+
+authors = ["chris oladimeji (coladimeji@gmail.com)"]
+
+ 
+
+[addresses]
+
+std = "_"
+
+my_addr = "0xC0FFEECAFE"
+
+ 
+
+[dependencies]
+
+MoveStdlib = { local = "../move-stdlib", addr_subst = { Std = "std" } }
